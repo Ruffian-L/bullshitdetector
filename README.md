@@ -3,7 +3,10 @@
 **Blazing-fast static analysis tool for detecting magic numbers, hardcoded values, and code smells in Rust (and other languages).**
 
 [![Crates.io](https://img.shields.io/crates/v/bullshitdetector.svg)](https://crates.io/crates/bullshitdetector)
+[![Downloads](https://img.shields.io/crates/d/bullshitdetector.svg)](https://crates.io/crates/bullshitdetector)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Docs](https://docs.rs/bullshitdetector/badge.svg)](https://docs.rs/bullshitdetector)
+[![GitHub](https://img.shields.io/github/stars/Ruffian-L/bullshitdetector?style=social)](https://github.com/Ruffian-L/bullshitdetector)
 
 ## 🚀 Features
 
@@ -149,9 +152,11 @@ MIT License - Copyright (c) 2025 Jason Van Pham (ruffian-l on GitHub) @ The Niod
 
 ## 🔗 Links
 
-- [Repository](https://github.com/Ruffian-L/niodoo-tcs)
-- [Issues](https://github.com/Ruffian-L/niodoo-tcs/issues)
-- [Changelog](CHANGELOG.md)
+- **Crate:** https://crates.io/crates/bullshitdetector
+- **Docs:** https://docs.rs/bullshitdetector
+- **Repository:** https://github.com/Ruffian-L/bullshitdetector
+- **Issues:** https://github.com/Ruffian-L/bullshitdetector/issues
+- **Releases:** https://github.com/Ruffian-L/bullshitdetector/releases
 
 ---
 
