@@ -1,0 +1,12 @@
+# Dockerfile.gpu for BullshitDetector
+FROM rust:1.82 AS builder
+WORKDIR /app
+COPY . .
+RUN apt-get update && apt-get install -y cmake libgit2-dev && \
+    cargo build --release --features cuda
+
+FROM nvidia/cuda:13.0.0-runtime-ubuntu22.04
+WORKDIR /app
+COPY --from=builder /app/target/release/bullshitdetector /usr/local/bin/
+COPY models ./models
+CMD ["bullshitdetector", "--server", "--port", "3000", "--metrics-port", "9090"]

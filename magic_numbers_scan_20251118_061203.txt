@@ -1,0 +1,26 @@
+=== MAGIC NUMBER SCAN REPORT ===
+Date: Tue Nov 18 06:12:03 +07 2025
+Target: /tmp
+Powered by: Bullshitdetector (https://crates.io/crates/bullshitdetector)
+===================================
+
+🔴 CRITICAL: Hardcoded Thresholds in Conditionals
+---------------------------------------------------
+
+🟠 HIGH: Hardcoded Durations/Timeouts
+--------------------------------------
+
+🟡 MEDIUM: Suspicious Numeric Assignments
+------------------------------------------
+
+🔵 LOW: Hardcoded Array/Collection Sizes
+-----------------------------------------
+
+ℹ️  INFO: Stringified Numbers (Potential Config Values)
+-------------------------------------------------------
+
+=== SUMMARY ===
+Critical (thresholds): 0
+High (timeouts): 0
+Medium (assignments): 0
+
